@@ -1,0 +1,155 @@
+/* body의 크기 조절 */
+body{
+	padding-left:10px;
+	padding-right:10px;
+	border:2px solid salmon;
+}
+header{
+	padding-left:10px;
+	padding-right:10px;
+	border:2px hidden salmon;
+	text-align:center;
+}
+
+article{
+	padding-left:10px;
+	padding-right:10px;
+	border:2px hidden salmon;
+}
+
+footer{
+	padding-left:10px;
+	padding-right:10px;
+	border:2px hidden salmon;
+}
+
+/* 로고의 사이즈 조절 */
+#logo{
+	width:20%;
+	height:6%;
+}
+
+/* 색깔있는 굵은 줄 (구분선) */
+hr{ 
+	border :1px solid #f77;
+}
+
+/* 로그인/로그아웃 창 모양 */
+#login{
+	height:30px;
+	width:130px;
+	border:1.5px solid #f77;
+	background:white;
+	color:#f77;
+	margin-right:10px;
+	margin-left:10px;
+	float:right;
+}
+
+/* 마이페이지 버튼 */
+#mypage{
+	height:30px;
+	width:130px;
+	border:1.5px solid #f77;
+	background:white;
+	color:#f77;
+	margin-right:10px;
+	margin-bottom:-10px;
+	margin-left:10px;
+	float:left;
+}
+
+/* search 칸 모양 */
+#inputsearch{
+	font-size:10px;
+	width:200px;
+	height:30px;
+	border:1.5px solid #f77;
+	background:white;
+	margin-right:0px;	
+}
+
+/* search 버튼모양 */
+#search{
+	margin-left:0px;
+	margin-right:10px;
+	width:80px;
+	height:35px;
+	border:1.5px solid #f77;
+	color:white;
+	background:#f77;
+	float:right;
+}
+
+
+/* 프로필이 들어갈 원형 포맷 */
+#profile{
+	width:100px;
+	height:100px;
+	border-radius:100px;
+	color:#f77;
+	text-align:center;
+	float:left;
+}
+
+/* 프로필을 나타내는 포맷 */
+.left-float-profile{
+	height:100px;
+    padding-left:10px;
+    padding-right:10px;
+    margin: 0 20px;
+	font-size:11px;
+	font-weight:bold;
+	float:left;
+}
+
+.not-float-profile{
+	height:100px;
+	margin: 0 20px;
+	padding-top:10px;
+	padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+	font-size:11px;
+	font-weight:bold;
+}
+
+/* 안쪽 box내용 */
+.innerBox{
+    font-family: '굴림', 'Gulim','나눔 고딕', 'Nanum Gothic', '맑은 고딕', 'Malgun Gothic', '돋움', 'Dotum';
+    margin: 0 20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+/* 좀더 큰 폰트 */
+.big-font {
+	font-family: '굴림', 'Gulim','나눔 고딕', 'Nanum Gothic', '맑은 고딕', 'Malgun Gothic', '돋움', 'Dotum';
+	font-size: 20px;
+}
+
+/* 책의 전체 포맷 */
+.info-book-format{
+ 	width:153px;
+ 	height:300px;
+ 	padding-left:20px;
+	padding-right:20px;
+	border:2px hidden salmon;
+	float:left;
+}
+
+/* 책의 정보를 표시하는 칸 */
+.info-of-book{
+	height:30px;
+	font-size:20px;
+}
+
+/* 책 사진 크기 */
+#bookImage {
+   	width:153px;
+   	height:221px;
+}
+
+/* 여기까지 공통 css     */
+/* 나머지 mypage에서 사용 */
+

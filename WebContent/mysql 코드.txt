@@ -1,0 +1,30 @@
+mysql -u root -p
+
+mysql> create database book_webprogram;
+Query OK, 1 row affected (0.03 sec)
+
+mysql> use book_webprogram;
+Database changed
+
+mysql> create table update_tbl(
+    -> No INT,
+    -> ref VARCHAR(15),
+    -> rate FLOAT(3,1),
+    -> content VARCHAR(500),
+    -> good INT,
+    -> bad INT,
+    -> user_ID VARCHAR(20),
+    -> date DATE,
+    -> PRIMARY KEY(No)
+    -> );
+Query OK, 0 rows affected, 1 warning (0.17 sec)
+
+mysql> create table user_info_tbl(
+    -> No INT,
+    -> NAME VARCHAR(10),
+    -> ID VARCHAR(20),
+    -> PW VARCHAR(20),
+    -> ID_ISBM VARCHAR(1000),
+    -> PRIMARY KEY(No)
+    -> );
+Query OK, 0 rows affected (0.07 sec)

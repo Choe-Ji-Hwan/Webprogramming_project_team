@@ -1,0 +1,489 @@
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+#commentSwiper {
+	margin-bottom: 30px;
+}
+#star_grade a{
+text-decoration:none;
+        color: gray;
+}
+#star_grade a.on{
+color: salmon;
+    }
+.review_textarea{
+   width:500px; 
+	height:50px; 
+    resize:none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body{
+	padding-left:10px;
+	padding-right:10px;
+	border:2px solid salmon;
+}
+
+header{
+	padding-left:10px;
+	padding-right:10px;
+	border:2px hidden salmon;
+	text-align:center;
+}
+
+article{
+	padding-left:10px;
+	padding-right:10px;
+	border:2px hidden salmon;
+}
+
+footer{
+	padding-left:10px;
+	padding-right:10px;
+	border:2px hidden salmon;
+}
+
+/* 로고의 사이즈 조절 */
+#logo{
+	width:20%;
+	height:6%;
+}
+
+/* 색깔있는 굵은 줄 (구분선) */
+hr{ 
+	border :1px solid #f77;
+}
+
+/* 로그인/로그아웃 창 모양 */
+#login{
+	height:30px;
+	width:130px;
+	border:1.5px solid #f77;
+	background:white;
+	color:#f77;
+	margin-right:10px;
+	margin-left:10px;
+	float:right;
+}
+
+/* 마이페이지 버튼 */
+#mypage{
+	height:30px;
+	width:130px;
+	border:1.5px solid #f77;
+	background:white;
+	color:#f77;
+	margin-right:10px;
+	margin-bottom:-10px;
+	margin-left:10px;
+	float:left;
+}
+
+/* search 칸 모양 */
+#inputsearch{
+	font-size:10px;
+	width:200px;
+	height:30px;
+	border:1.5px solid #f77;
+	background:white;
+	margin-right:0px;	
+}
+
+/* search 버튼모양 */
+#search{
+	margin-left:0px;
+	margin-right:10px;
+	width:80px;
+	height:35px;
+	border:1.5px solid #f77;
+	color:white;
+	background:#f77;
+	float:right;
+}
+#bookSection {
+	border :1px solid #f77;
+	border-width: 1px 0 0 0;
+	display: block;
+	margin: 50px auto;
+	text-align: center;
+}
+
+#informationBox{
+	
+}
+
+#defaultInfo {
+	
+}
+
+.innerBox{
+	margin: 0 20px;
+	border-bottom: 1px solid #f77;
+}
+
+.innerBoxNoline{
+	margin: 0 20px;
+}
+
+.writerImageBox{
+	width: 56px;
+	height: 56px;
+}
+
+.imageCircle{
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.08) inset;
+	width: 100%;
+	height: 100%;
+}
+
+#writerName{
+	margin-left: 12px;
+	float : left;
+	flex-direction: colunm;
+}
+
+.containerRow{
+	display: flex;
+	align-items: center;
+}
+
+.commentBox{
+	background-color: rgb(242, 242, 242);
+	border-radius: 6px;
+	width: 294px;
+	height: 294.6px;
+	margin: 0px 10px 30px 0px;
+}
+
+.userInfo{
+	flex-direction: row;
+	height: 57px;
+	padding: 0px 12px;
+}
+
+.commentInner{
+	border-bottom: 1px solid rgb(229, 229, 229);
+	width: 100%;
+	height: 100%;
+}
+
+.commentInnerFlex{
+	border-bottom: 1px solid rgb(229, 229, 229);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.userImageBox{
+	width: 32px;
+	height: 32px;
+	margin-right: 8px;
+}
+
+.userText{
+	height: 135px;
+	margin: 12px 0px 0px;
+	padding: 0px 12px;
+}
+
+.likeBox{
+	height: 46px;
+	display: flex;
+	align-items: center;
+	padding: 0px 12px;
+}
+
+.likeImage{
+	width: 18px;
+	height: 18px;
+	margin: 0px 3px;
+}
+
+.unlikeImage{
+	width: 14px;
+	height: 14px;
+	margin: 0px 5px 0px 13px
+}
+
+legend {
+	margin: 0 auto;
+}
+
+.bookImage {
+	width:153px;
+	height:221px;
+}
+
+.disableBodyScrolling {
+    overflow: hidden !important;
+}
+
+#backScreen{
+	display: none;
+	position: fixed;
+	margin: 0px;
+	background: rgba(0, 0, 0, 0.56);
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 100;
+
+}
+
+.modalScreen{
+	display: none;
+	position: fixed;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 101;
+	text-align: center;
+}
+
+.loginContainer{
+	width: 375px;
+	height: auto;
+	padding: 20px 0px;
+	z-index: 102;
+	background: rgb(255, 255, 255);
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 6px 0px;
+	border-radius: 6px;
+}
+
+.innerLoginBox{
+	padding: 32px 0px 20px;
+}
+
+.loginLogoBox{
+	width: 40%;
+	height: 10%;
+
+}
+
+.loginDataBox{
+	margin: 0 20px;
+}
+
+.userDataContainer{
+	display: flex;
+	align-items: center;
+	height: 44px;
+	padding: 0px 12px;
+	margin: 8px 0px;
+	border-radius: 6px;
+	background: rgb(245, 245, 245);
+}
+
+.userInput{
+	background: transparent;
+	border: 0px;
+}
+
+.loginButton{
+	background: salmon;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	width: 100%;
+	height: 44px;
+	margin: 10px 0px 0px;
+	cursor: pointer;
+}
+
+.signUpButton{
+	background: none;
+	border: 0px;
+	color: salmon;
+	cursor: pointer;
+	margin: 20px 0px 14px;
+}
+
+.orLine{
+	position: relative;
+	text-align: center;
+	border: 0px;
+	height: 1.5em;
+	margin: 30px 0px;
+}
+
+.orLine::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	border-top: 1px solid rgb(216, 216, 216);
+}
+
+.orLine::after {
+	content: "OR";
+	display: inline;
+	position: relative;
+	background-color: white;
+	color: rgb(160, 160, 160);
+	padding: 0px 14px;
+	
+}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+
+html{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+button:focus {border: none; outline: none;}
+
+input:focus{border: none; outline: none;}
+
+.disableBodyScrolling {
+    overflow: hidden !important;
+}
+
+#backScreen{
+	display: block;
+	position: fixed;
+	margin: 0px;
+	background: rgba(0, 0, 0, 0.56);
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 100;
+
+}
+
+.modalScreen{
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 101;
+	text-align: center;
+}
+
+.loginContainer{
+	width: 375px;
+	height: auto;
+	padding: 20px 0px;
+	z-index: 102;
+	background: rgb(255, 255, 255);
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 6px 0px;
+	border-radius: 6px;
+}
+
+.innerLoginBox{
+	padding: 32px 0px 20px;
+}
+
+.loginLogoBox{
+	width: 40%;
+	height: 10%;
+
+}
+
+.loginDataBox{
+	margin: 0 20px;
+}
+
+.userDataContainer{
+	display: flex;
+	align-items: center;
+	height: 44px;
+	padding: 0px 12px;
+	margin: 8px 0px;
+	border-radius: 6px;
+	background: rgb(245, 245, 245);
+}
+
+.userInput{
+	background: transparent;
+	border: 0px;
+}
+
+.loginButton{
+	background: salmon;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	width: 100%;
+	height: 44px;
+	margin: 10px 0px 0px;
+	cursor: pointer;
+}
+
+.smallSignUpButton{
+	background: none;
+	border: 0px;
+	color: salmon;
+	cursor: pointer;
+	margin: 20px 0px 14px;
+}
+
+.smallSignInButton{
+	background: none;
+	border: 0px;
+	color: salmon;
+	cursor: pointer;
+	margin: 20px 0px 14px;
+}
+
+.orLine{
+	position: relative;
+	text-align: center;
+	border: 0px;
+	height: 1.5em;
+	margin: 30px 0px;
+}
+
+.orLine::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	border-top: 1px solid rgb(216, 216, 216);
+}
+
+.orLine::after {
+	content: "OR";
+	display: inline;
+	position: relative;
+	background-color: white;
+	color: rgb(160, 160, 160);
+	padding: 0px 14px;
+	
+}
+
+.signUpButton{
+	background: salmon;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	width: 100%;
+	height: 44px;
+	margin: 10px 0px 0px;
+	cursor: pointer;
+}
